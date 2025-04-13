@@ -1,0 +1,19 @@
+{
+    "binance": {
+        "api_key": "your_api_key",
+        "secret_key": "your_secret_key",
+        "test_net": true
+    },
+    "database": {
+        "driver": "mongodb",
+        "host": "localhost",
+        "port": 27017,
+        "database": "crypto_trading"
+    },
+    "trading": {
+        "symbols": ["BTCUSDT", "ETHUSDT"],
+        "intervals": ["1m", "5m", "15m"],
+        "risk_limit": 0.02,
+        "max_positions": 3
+    }
+}

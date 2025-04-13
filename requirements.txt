@@ -1,0 +1,10 @@
+vnpy==3.9.4
+vnpy_binance
+vnpy_ctastrategy
+vnpy_mongodb    # 添加这行
+pandas
+numpy
+PyQt5
+pyqtgraph
+pymongo
+ccxt
